@@ -13,3 +13,14 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_btIgual_clicked()
+{
+    ui->result->setText("Funcionando");
+}
+
+
+void MainWindow::on_btApaga_clicked()
+{
+    ui->result->setText("");
+}
+

@@ -15,6 +15,13 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+    void on_btIgual_clicked();
+
+    void on_btApaga_clicked();
+
+
 private:
     Ui::MainWindow *ui;
 };
